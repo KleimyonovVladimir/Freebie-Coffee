@@ -3,10 +3,133 @@
 }
 body {
   font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
 }
 h1,
 h2,
 h3,
 h4 {
+  text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+h2 {
+  font-size: 30px;
+  line-height: 34px;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+p {
+  color: #151d28;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+.header {
+  position: relative;
+  height: 100vh;
+}
+.logo {
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+.offer {
+  position: absolute;
+  width: 490px;
+  left: 15%;
+  bottom: 10%;
+  z-index: 5;
+}
+.offer-title {
+  color: #415167;
+  font-size: 54px;
+  line-height: 70px;
+}
+.offer-difference {
+  color: #fff;
+  background-color: #c7a17a;
+  padding: 0 15px;
+}
+.header-video {
+  position: absolute;
+  top: 0;
+  right: 20%;
+  height: 100vh;
+}
+
+.header-video__bg {
+  height: 100%;
+}
+.header-video__play {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-video__arrow {
+  width: 13px;
+  height: 11px;
+}
+.menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+  height: 100%;
+}
+.menu::before {
+  content: "";
+  position: absolute;
+  background-color: #415167;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  right: 0;
+  top: 0;
+}
+.menu__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu__cart {
+  margin-bottom: 120px;
+}
+.menu__navigation {
+  width: 160px;
+}
+
+.menu__item {
+  padding-bottom: 30px;
+  width: fit-content;
+}
+.menu__link {
+  color: #edf0f5;
+  transition: 0.2s;
+}
+.menu__link:hover {
+  font-weight: 700;
 }

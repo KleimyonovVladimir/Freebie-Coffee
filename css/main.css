@@ -11,6 +11,7 @@ h1,
 h2,
 h3,
 h4 {
+  color: #415167;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -36,6 +37,14 @@ p {
   margin: 0;
   padding: 0;
 }
+span {
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 
 /* header */
 .header {
@@ -55,7 +64,6 @@ p {
   z-index: 5;
 }
 .offer-title {
-  color: #415167;
   font-size: 54px;
   line-height: 70px;
 }
@@ -132,4 +140,27 @@ p {
 }
 .menu__link:hover {
   font-weight: 700;
+}
+/* coffee */
+.coffee {
+  padding: 87px 0 60px 0;
+}
+.title {
+  text-align: center;
+}
+.subtitle {
+  text-transform: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  display: block;
+}
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 70px;
+  margin-top: 92px;
+}
+.about__item {
+  text-align: center;
 }

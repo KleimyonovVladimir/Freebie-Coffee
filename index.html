@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Nunito:wght@300;600;700&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/media.css">
   <title>Freebie Coffee</title>
@@ -25,7 +26,7 @@
         <img src="./img/play-button.svg" alt="Arrow" class="header-video__arrow">
       </a>
     </div>
-    <div class="menu">
+    <div class="menu same-bg bg">
       <div class="menu__content">
         <img src="./img/shopping-cart.svg" class="menu__cart" alt="shopping-cart">
         <nav class="menu__navigation">
@@ -43,8 +44,8 @@
   </header>
   <section id="coffee" class="coffee">
     <div class="container">
-      <h2 class="title">
-        <span class="subtitle">Your Personalized Coffee</span>
+      <h2 class="coffee-title title">
+        <span class="coffee-subtitle subtitle">Your Personalized Coffee</span>
         Coffee build your base
       </h2>
       <ul class="about">
@@ -71,6 +72,210 @@
       </ul>
     </div>
   </section>
+  <section id="favorite" class="favorite ">
+    <div class="box same-bg bg"></div>
+    <h2 class="favorite-title title">
+      <span class="favorite-subtitle subtitle">Choose Your Favorite</span>
+      CHUẨN GU ĐÚNG VỊ
+    </h2>
+
+    <div class="swiper-container">
+
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-yellow.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">99.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Morning
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-orange.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">139.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Origin
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-blue.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">85.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Everyday
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-brown.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">75.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Đậm Đà
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-orange.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">79.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Origin
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-blue.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">140.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Everyday
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-blue.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">140.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Everyday
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-brown.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">140.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Đậm Đà
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-yellow.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">140.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Morning
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="coffee-card">
+            <img src="./img/product-orange.jpg" class="product-img" alt="Coffee">
+            <div class="product-info">
+              <span class="product-info__price">140.000</span>
+              <h4 class="product-info__title">
+                <span class="product-info__company-name">Revo</span>
+                Origin
+              </h4>
+              <p class="product-info__description">Dắng, hậu ngọt, hương hoa</p>
+              <div class="product-info__link">
+                <a href="#" class="product-info__button buy-btn">MUA NGAY</a>
+                <a href="#" class="product-info__button more-btn">CHI TIẾT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev common-arrow-class"></div>
+      <div class="swiper-button-next common-arrow-class"></div>
+    </div>
+
+  </section>
+  <!-- connecting Script -->
+  <script src="./js/jQuery.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

@@ -493,3 +493,11 @@ span {
 .combo-product-info-description {
   width: 320px;
 }
+/* footer */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+.footer__content {
+  font-style: italic;
+}

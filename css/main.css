@@ -257,9 +257,7 @@ span {
 .swiper-slide:hover {
   filter: drop-shadow(0px 4px 24px rgba(205, 205, 205, 0.5));
 }
-.product-img {
-  height: 100%;
-}
+
 .product-info {
   display: flex;
   height: 100%;
@@ -320,8 +318,14 @@ span {
 }
 /* giftset */
 .giftset {
+  background-color: #edf0f5;
+  position: relative;
   padding-top: 85px;
   padding-bottom: 128px;
+}
+.giftset .bg::before {
+  background-color: #f2f2f2;
+  z-index: 1;
 }
 .giftset-title {
   padding-bottom: 66px;
@@ -336,7 +340,7 @@ span {
 .giftset-swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: transparent;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -362,8 +366,8 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 88px;
-  height: 158px;
+  width: 90px;
+  height: 157px;
   border-radius: 0;
   background-color: #fff;
 }
@@ -378,7 +382,11 @@ span {
   color: #415167;
   background: rgba(0, 0, 0, 0.2);
 }
-
+.swiper-container-vertical > .swiper-pagination-bullets {
+  right: 0;
+  top: 50%;
+  transform: translate3d(0px, -50%, 0);
+}
 .swiper-pagination-bullet-active {
   color: #415167;
   background: #fff;
@@ -389,7 +397,7 @@ span {
   box-shadow: 1px 0px 10px rgb(205 205 205 / 50%);
   position: relative;
   height: 100%;
-  width: 795px;
+  width: 810px;
   margin-left: 150px;
 }
 .giftset-picture {
@@ -495,6 +503,7 @@ span {
 }
 /* footer */
 .footer {
+  background-color: #edf0f5;
   text-align: center;
   padding: 20px 0;
 }
